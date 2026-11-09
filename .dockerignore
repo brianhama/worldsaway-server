@@ -1,4 +1,5 @@
 data
+.git
 node_modules
 dist
 *.tsbuildinfo
@@ -6,4 +7,9 @@ test
 docs
 *.log
 .env
+.env.*
+**/.env
+**/.env.*
+*.iv
+**/*.iv
 .DS_Store

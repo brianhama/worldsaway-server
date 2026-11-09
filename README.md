@@ -214,15 +214,30 @@ For another machine on a network, bind a reachable interface and advertise the a
 npm start -- --host 0.0.0.0 --advertise-host 192.168.1.10
 ```
 
-The Node browser bridge must be able to reach the HTTP, native TCP and RPC endpoints. Native TCP uses the legacy unencrypted transport; local testing defaults to loopback. The bundled Dockerfile requires a prepared `resources/` pack in the build context:
+The Node browser bridge must be able to reach the HTTP, native TCP and RPC endpoints. Native TCP uses the legacy unencrypted transport; local testing defaults to loopback. The bundled Dockerfile requires both a prepared `resources/` pack and `content/altaway-regions-2026-11-08.json` in the build context. These are local inputs excluded from Git, so a GitHub checkout alone is not a complete Docker build context. Prepare an upload directory from a machine that has those inputs:
 
 ```sh
-docker build -t worldsaway-app .
+npm ci
+npm run deploy:prepare -- /tmp/worldsaway-deploy/context
+docker build -t worldsaway-app /tmp/worldsaway-deploy/context
 docker run --rm -p 127.0.0.1:8080:8080 -p 127.0.0.1:1701:1701 -p 127.0.0.1:1702:1702 \
   -v worldsaway-data:/app/data worldsaway-app
 ```
 
-This example publishes the ports on the Docker host's loopback interface. For clients on another host, publish reachable interfaces and pass an appropriate `WORLDSAWAY_ADVERTISE_HOST`. To disable demo-account seeding, append the complete command `node dist/src/cli.js --host 0.0.0.0 --no-demo` after the image name; Docker arguments after the image replace its default command. Docker execution has separate validation status in the validation record.
+Use a new destination outside the checkout for each preparation. The preparer validates the resource pack and survey, copies an allowlist of build inputs and the three required asset files, and writes a SHA-256 manifest beside the upload directory. It excludes accounts, saved worlds, credentials, Git metadata, dependencies and other local resource/content files. Missing required inputs fail before an upload directory is created; adding an empty `content/` directory does not fix the required survey input.
+
+This example publishes the ports on the Docker host's loopback interface. For clients on another host, publish reachable interfaces and pass an appropriate `WORLDSAWAY_ADVERTISE_HOST`. To disable demo-account seeding, append the complete command `node dist/src/cli.js --host 0.0.0.0 --no-demo` after the image name; Docker arguments after the image replace its default command.
+
+For the existing Railway backend, upload that prepared directory explicitly:
+
+```sh
+npx --yes @railway/cli up /tmp/worldsaway-deploy/context --path-as-root --no-gitignore \
+  --project f83fe1b9-1444-4fe8-b0d7-ffa20d7ef902 \
+  --environment b45249cd-055f-4fee-87e3-d051abfd598d \
+  --service dbda1f0f-7f7a-4b9c-86fb-39e3cf3563fd
+```
+
+Keep this service on local source uploads while its asset inputs remain outside Git. Reconnecting the GitHub source would again build without them. Upload only the prepared directory; running `railway up --no-gitignore` over the working checkout could also include mutable accounts and other local files. The raw survey remains outside Git because it includes observations excluded by the world importer. The existing Railway volume retains saved accounts and world state across source uploads.
 
 When HTTP and native TCP have different public addresses, configure `--public-url https://your-world-service.example` separately from `--advertise-host native-proxy.example`. `--advertise-world-port` and `--advertise-rpc-port` control the connection file's public ports without changing listener ports. A single public TCP proxy can forward to native port 1701 because that listener multiplexes filename RPC; advertise the same proxy port for both values. The dedicated local RPC listener remains separate. Public URLs require HTTPS; loopback HTTP URLs are accepted for local development.
 

@@ -7,16 +7,17 @@
   "environmentName": "preview",
   "serviceId": "dbda1f0f-7f7a-4b9c-86fb-39e3cf3563fd",
   "serviceName": "worldsaway-backend",
-  "deploymentId": "53815a31-c208-47c5-8afe-a0549cfefc04",
+  "deploymentId": "b51ebbc5-f8ee-4cc9-993f-015a9b50af22",
   "status": "SUCCESS",
-  "verifiedAt": "2026-11-08T20:39:53.538Z",
+  "verifiedAt": "2026-11-09T02:45:05.009378Z",
   "source": {
-    "kind": "allowlisted local upload",
-    "fileCount": 48,
-    "bytes": 68110572,
-    "manifestSha256": "e5e3e6887dcaf68447e058d5380b66ae5e24f220953354a775ae0cce2e0851f8",
-    "gitCommit": null,
-    "accountsAndMutableDataIncluded": false
+    "kind": "allowlisted prepared local upload",
+    "fileCount": 45,
+    "bytes": 68119367,
+    "manifestSha256": "9c6bc8334a7308e25753e6ab2b41b2a3369d00d609049ecd3aaf1524df569e1e",
+    "accountsAndMutableDataIncluded": false,
+    "gitHubSourceConnected": false,
+    "gitCommit": null
   },
   "runtime": {
     "node": "22",
@@ -75,19 +76,21 @@
     },
     "serverSkipped": 2,
     "serverFailed": 0,
-    "surveyImport": "railway-survey-import.json"
+    "surveyImport": "railway-survey-import.json",
+    "preparedUpload": "evidence/deployment-build-context-2026-11-08.json"
   },
   "notes": [
     "Deployment uses Railway volume configuration; Docker VOLUME instruction removed.",
     "Explicit PORT=8080 aligns Railway health checks with the HTTP listener.",
     "Hosted startup prepares the volume then drops application privileges to uid1000.",
-    "Public server does not seed demo credentials; create an account through the browser."
+    "Public server does not seed demo credentials; create an account through the browser.",
+    "GitHub deployment source disconnected; npm run deploy:prepare creates the local upload context with required Git-ignored asset inputs."
   ],
   "storageVerification": {
     "method": "Railway mounted volume configuration plus successful durable registration/native reentry",
     "directSshInspection": "not performed; local SSH key unavailable"
   },
-  "previousDeploymentId": "6e219421-1da1-494c-9268-5d2c0941c76d",
+  "previousDeploymentId": "53815a31-c208-47c5-8afe-a0549cfefc04",
   "resources": {
     "magResources": 1637,
     "fileAssets": 3538,

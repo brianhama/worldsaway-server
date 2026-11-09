@@ -10,6 +10,7 @@
     "typecheck": "tsc --noEmit",
     "start": "node dist/src/cli.js",
     "dev": "tsx watch src/cli.ts",
+    "deploy:prepare": "tsx scripts/prepare-deployment.ts",
     "test": "npm run build && node --test",
     "smoke": "node dist/scripts/smoke-client.js",
     "check": "npm run typecheck && npm run build && node dist/src/cli.js --check",
