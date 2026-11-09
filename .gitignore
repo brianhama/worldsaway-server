@@ -1,0 +1,40 @@
+# Dependencies and generated TypeScript output.
+node_modules/
+/dist/
+*.tsbuildinfo
+
+# Mutable accounts/world data and locally supplied legacy resource packs.
+/data/
+/resources/
+
+# Local configuration and credentials; keep sanitized templates available.
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Native handoff files contain short-lived login tickets.
+*.iv
+
+# Logs and generated analysis/test output (docs coverage ledgers stay tracked).
+*.log
+npm-debug.log*
+/coverage/
+/.nyc_output/
+/.cache/
+
+# Local hosting configuration and deployment tooling state.
+/.railway/
+/.vercel/
+
+# OS and editor files.
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+content/altaway-regions-2026-11-08.json
+docs/survey-import.md

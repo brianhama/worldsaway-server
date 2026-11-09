@@ -1,0 +1,2485 @@
+{
+  "format": 1,
+  "source": "browser-client/public/actions.ts",
+  "note": "Authored catalog snapshot for compatibility checks. Inherited Tcl methods can guard the receiver at runtime; declarations do not prove original business rules.",
+  "requests": [
+    {
+      "id": 26,
+      "name": "rename",
+      "classes": [
+        20,
+        24,
+        25,
+        26,
+        27,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        98,
+        200,
+        201,
+        203,
+        204,
+        205,
+        206,
+        209,
+        210,
+        213,
+        215
+      ],
+      "schema": "bsnewName;;",
+      "replyId": 70,
+      "admin": false
+    },
+    {
+      "id": 30,
+      "name": "ATM statistics / teleport configuration",
+      "classes": [
+        33,
+        56
+      ],
+      "schema": "bu1unused;;",
+      "replyId": 2813,
+      "admin": false
+    },
+    {
+      "id": 72,
+      "name": "room speech",
+      "classes": [
+        21,
+        40
+      ],
+      "schema": "bu2type;bu2dummyfielda;bstext;;",
+      "replyId": 73,
+      "admin": false
+    },
+    {
+      "id": 76,
+      "name": "describe",
+      "classes": [
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        98,
+        200,
+        201,
+        203,
+        204,
+        205,
+        206,
+        209,
+        210,
+        213,
+        215
+      ],
+      "schema": "bu1unused;;",
+      "replyId": 77,
+      "admin": false
+    },
+    {
+      "id": 85,
+      "name": "put in container",
+      "classes": [
+        24,
+        25,
+        26,
+        27,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        98,
+        200,
+        201,
+        203,
+        204,
+        205,
+        206,
+        209,
+        210,
+        213,
+        215
+      ],
+      "schema": "bu2container;bu2in_pocket;;",
+      "replyId": 86,
+      "admin": false
+    },
+    {
+      "id": 89,
+      "name": "put in pocket",
+      "classes": [
+        24,
+        25,
+        26,
+        27,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        98,
+        200,
+        201,
+        203,
+        204,
+        205,
+        206,
+        209,
+        210,
+        213,
+        215
+      ],
+      "schema": "bu1unused;;",
+      "replyId": 90,
+      "admin": false
+    },
+    {
+      "id": 93,
+      "name": "take from container",
+      "classes": [
+        24,
+        25,
+        26,
+        27,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        98,
+        200,
+        201,
+        203,
+        204,
+        205,
+        206,
+        209,
+        210,
+        213,
+        215
+      ],
+      "schema": "bu1unused;;",
+      "replyId": 70,
+      "admin": false
+    },
+    {
+      "id": 97,
+      "name": "take from pocket",
+      "classes": [
+        24,
+        25,
+        26,
+        27,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        98,
+        200,
+        201,
+        203,
+        204,
+        205,
+        206,
+        209,
+        210,
+        213,
+        215
+      ],
+      "schema": "bu1unused;;",
+      "replyId": 70,
+      "admin": false
+    },
+    {
+      "id": 103,
+      "name": "take region exit",
+      "classes": [
+        20
+      ],
+      "schema": "bu2exitDir;;",
+      "replyId": 70,
+      "admin": false
+    },
+    {
+      "id": 109,
+      "name": "ESP message",
+      "classes": [
+        20,
+        21,
+        22
+      ],
+      "schema": "bu2type;bu2dummyfielda;bsto;bstext;;",
+      "replyId": 111,
+      "admin": false
+    },
+    {
+      "id": 124,
+      "name": "relocate named avatar",
+      "classes": [
+        20
+      ],
+      "schema": "bsavatar_name;bsaddress;bu2areaCode;bu2goto_reggroup;bu2get_real;;",
+      "replyId": 70,
+      "admin": false
+    },
+    {
+      "id": 131,
+      "name": "set home guest policy",
+      "classes": [
+        20,
+        41,
+        60
+      ],
+      "schema": "bu2guestAllowed;bu2kickOutOnExit;;",
+      "replyId": 70,
+      "admin": false
+    },
+    {
+      "id": 133,
+      "name": "set room guest policy",
+      "classes": [
+        20
+      ],
+      "schema": "bu2allow;;",
+      "replyId": 70,
+      "admin": false
+    },
+    {
+      "id": 135,
+      "name": "set room population limit",
+      "classes": [
+        20
+      ],
+      "schema": "bu2how_many;bu2which;;",
+      "replyId": 70,
+      "admin": false
+    },
+    {
+      "id": 137,
+      "name": "remove home guests",
+      "classes": [
+        20,
+        41,
+        60
+      ],
+      "schema": "bu1unused;;",
+      "replyId": 70,
+      "admin": false
+    },
+    {
+      "id": 139,
+      "name": "remove named home guest",
+      "classes": [
+        20,
+        41,
+        60
+      ],
+      "schema": "bsguest_name;;",
+      "replyId": 70,
+      "admin": false
+    },
+    {
+      "id": 141,
+      "name": "set owner-exit guest policy",
+      "classes": [
+        20,
+        41,
+        60
+      ],
+      "schema": "bu2kickout;;",
+      "replyId": 70,
+      "admin": false
+    },
+    {
+      "id": 143,
+      "name": "toggle home guests",
+      "classes": [
+        20,
+        41,
+        60
+      ],
+      "schema": "bu1unused;;",
+      "replyId": 70,
+      "admin": false
+    },
+    {
+      "id": 147,
+      "name": "read home owners",
+      "classes": [
+        20,
+        41,
+        60
+      ],
+      "schema": "bu1unused;;",
+      "replyId": 148,
+      "admin": false
+    },
+    {
+      "id": 150,
+      "name": "read home access policy",
+      "classes": [
+        20,
+        41,
+        60
+      ],
+      "schema": "bu1unused;;",
+      "replyId": 151,
+      "admin": false
+    },
+    {
+      "id": 155,
+      "name": "set room access controls",
+      "classes": [
+        20
+      ],
+      "schema": "bu2guestAllowed;bu2dummyfielda;bu4maxAvatars;bu4maxGhosts;;",
+      "replyId": 156,
+      "admin": false
+    },
+    {
+      "id": 161,
+      "name": "read object URL",
+      "classes": [
+        20,
+        41,
+        60
+      ],
+      "schema": "bu2target;bu2which;;",
+      "replyId": 162,
+      "admin": false
+    },
+    {
+      "id": 165,
+      "name": "set object URL",
+      "classes": [
+        20,
+        41,
+        60
+      ],
+      "schema": "bu2target;bu2dummyfielda;bsnewURLlabel;bsnewURL;;",
+      "replyId": 70,
+      "admin": false
+    },
+    {
+      "id": 171,
+      "name": "web tour state",
+      "classes": [
+        20,
+        21,
+        22
+      ],
+      "schema": "bu2newstate;;",
+      "replyId": 172,
+      "admin": false
+    },
+    {
+      "id": 175,
+      "name": "web tour permission",
+      "classes": [
+        20,
+        21,
+        22
+      ],
+      "schema": "bu2target;bu2allow;;",
+      "replyId": 70,
+      "admin": false
+    },
+    {
+      "id": 179,
+      "name": "join web tour",
+      "classes": [
+        20,
+        21,
+        22
+      ],
+      "schema": "bu2target;;",
+      "replyId": 180,
+      "admin": false
+    },
+    {
+      "id": 183,
+      "name": "web tour URL",
+      "classes": [
+        20,
+        21,
+        22
+      ],
+      "schema": "bsnewURL;;",
+      "replyId": 70,
+      "admin": false
+    },
+    {
+      "id": 186,
+      "name": "set object glue state",
+      "classes": [
+        20,
+        41,
+        60
+      ],
+      "schema": "bu2item;bu2glued;;",
+      "replyId": 70,
+      "admin": false
+    },
+    {
+      "id": 190,
+      "name": "move owned or builder object",
+      "classes": [
+        20
+      ],
+      "schema": "bu2item;bi2coords,3;bu2orientation;;",
+      "replyId": 191,
+      "admin": false
+    },
+    {
+      "id": 194,
+      "name": "set object description",
+      "classes": [
+        20,
+        41,
+        60
+      ],
+      "schema": "bu2target;bu2dummyfielda;bsnewTMA;;",
+      "replyId": 70,
+      "admin": false
+    },
+    {
+      "id": 200,
+      "name": "create objects",
+      "classes": [
+        20,
+        41,
+        60
+      ],
+      "schema": "bu2classno;bi2xloc;bi2yloc;bu2count;;",
+      "replyId": 70,
+      "admin": true
+    },
+    {
+      "id": 201,
+      "name": "duplicate object",
+      "classes": [
+        20,
+        41,
+        60
+      ],
+      "schema": "bu2target;bu2count;;",
+      "replyId": 70,
+      "admin": true
+    },
+    {
+      "id": 202,
+      "name": "delete object",
+      "classes": [
+        20,
+        41,
+        60
+      ],
+      "schema": "bu2target;;",
+      "replyId": 70,
+      "admin": true
+    },
+    {
+      "id": 203,
+      "name": "read field",
+      "classes": [
+        20,
+        41,
+        60
+      ],
+      "schema": "bu2target;bu2dummyfielda;bsfield;;",
+      "replyId": 204,
+      "admin": true
+    },
+    {
+      "id": 205,
+      "name": "write field",
+      "classes": [
+        20,
+        41,
+        60
+      ],
+      "schema": "bu2target;bu2dummyfielda;bsfield;bsvalue;bswhere;;",
+      "replyId": 80,
+      "admin": true
+    },
+    {
+      "id": 206,
+      "name": "list fields",
+      "classes": [
+        20,
+        41,
+        60
+      ],
+      "schema": "bu2target;;",
+      "replyId": 207,
+      "admin": true
+    },
+    {
+      "id": 208,
+      "name": "read property",
+      "classes": [
+        20,
+        41,
+        60
+      ],
+      "schema": "bu2target;bu2dummyfielda;bsproperty;;",
+      "replyId": 209,
+      "admin": true
+    },
+    {
+      "id": 210,
+      "name": "write property",
+      "classes": [
+        20,
+        41,
+        60
+      ],
+      "schema": "bu2target;bu2dummyfielda;bsproperty;bsvalue;;",
+      "replyId": 70,
+      "admin": true
+    },
+    {
+      "id": 211,
+      "name": "read public property",
+      "classes": [
+        20,
+        41,
+        60
+      ],
+      "schema": "bu2target;bu2dummyfielda;bspropname;;",
+      "replyId": 212,
+      "admin": false
+    },
+    {
+      "id": 220,
+      "name": "create region",
+      "classes": [
+        20,
+        41,
+        60
+      ],
+      "schema": "bsname;bsaddress;bu2areaCode;bu2dummyfielda;bu4regionFlags;bu4regionNum;;",
+      "replyId": 70,
+      "admin": true
+    },
+    {
+      "id": 221,
+      "name": "duplicate current region",
+      "classes": [
+        20,
+        41,
+        60
+      ],
+      "schema": "bsaddress;bu2areaCode;bi2randomFactor;;",
+      "replyId": 70,
+      "admin": true
+    },
+    {
+      "id": 222,
+      "name": "mark region for deletion",
+      "classes": [
+        20,
+        41,
+        60
+      ],
+      "schema": "bu1unused;;",
+      "replyId": 70,
+      "admin": true
+    },
+    {
+      "id": 223,
+      "name": "current region details",
+      "classes": [
+        20,
+        41,
+        60
+      ],
+      "schema": "bu1unused;;",
+      "replyId": 224,
+      "admin": true
+    },
+    {
+      "id": 225,
+      "name": "modify region",
+      "classes": [
+        20,
+        41,
+        60
+      ],
+      "schema": "bsname;bsaddress;bu2areaCode;bu2dummyfielda;bu4regionFlags;;",
+      "replyId": 70,
+      "admin": true
+    },
+    {
+      "id": 226,
+      "name": "list regions",
+      "classes": [
+        20,
+        41,
+        60
+      ],
+      "schema": "bu2areaCode;;",
+      "replyId": 227,
+      "admin": true
+    },
+    {
+      "id": 230,
+      "name": "create region group",
+      "classes": [
+        20,
+        41,
+        60
+      ],
+      "schema": "bsname;bsaddress;bu2areaCode;bu2dummyfielda;bu4count;bu4reggroupFlags;;",
+      "replyId": 70,
+      "admin": true
+    },
+    {
+      "id": 231,
+      "name": "duplicate current group",
+      "classes": [
+        20,
+        41,
+        60
+      ],
+      "schema": "bsaddress;bu2areaCode;;",
+      "replyId": 70,
+      "admin": true
+    },
+    {
+      "id": 232,
+      "name": "mark current group for deletion",
+      "classes": [
+        20,
+        41,
+        60
+      ],
+      "schema": "bu1unused;;",
+      "replyId": 70,
+      "admin": true
+    },
+    {
+      "id": 233,
+      "name": "current group details",
+      "classes": [
+        20,
+        41,
+        60
+      ],
+      "schema": "bu1unused;;",
+      "replyId": 234,
+      "admin": true
+    },
+    {
+      "id": 235,
+      "name": "modify group",
+      "classes": [
+        20,
+        41,
+        60
+      ],
+      "schema": "bsname;bsaddress;bu2areaCode;bu2dummyfielda;bu4entryRegNum;bu4reggroupFlags;;",
+      "replyId": 70,
+      "admin": true
+    },
+    {
+      "id": 236,
+      "name": "add region to group",
+      "classes": [
+        20,
+        41,
+        60
+      ],
+      "schema": "bsreggroupAddr;bu2reggroupAC;bu2dummyfielda;bsregionAddr;bu2regionAC;;",
+      "replyId": 70,
+      "admin": true
+    },
+    {
+      "id": 237,
+      "name": "remove region from group",
+      "classes": [
+        20,
+        41,
+        60
+      ],
+      "schema": "bsreggroupAddr;bu2reggroupAC;bu2dummyfielda;bsregionAddr;bu2regionAC;;",
+      "replyId": 70,
+      "admin": true
+    },
+    {
+      "id": 238,
+      "name": "list groups",
+      "classes": [
+        20,
+        41,
+        60
+      ],
+      "schema": "bu2areaCode;;",
+      "replyId": 239,
+      "admin": true
+    },
+    {
+      "id": 241,
+      "name": "avatar name lookup",
+      "classes": [
+        20
+      ],
+      "schema": "bssearchname;;",
+      "replyId": 242,
+      "admin": false
+    },
+    {
+      "id": 244,
+      "name": "send ESP mail",
+      "classes": [
+        20
+      ],
+      "schema": "bsto;bstext;;",
+      "replyId": 70,
+      "admin": false
+    },
+    {
+      "id": 247,
+      "name": "read ESP mail",
+      "classes": [
+        20
+      ],
+      "schema": "bu2unused;;",
+      "replyId": 246,
+      "admin": false
+    },
+    {
+      "id": 300,
+      "name": "open close lock unlock",
+      "classes": [
+        36,
+        38,
+        59,
+        201
+      ],
+      "schema": "bu2indirect;bu2state;bu4keycode;;",
+      "replyId": 70,
+      "admin": false
+    },
+    {
+      "id": 303,
+      "name": "open close device",
+      "classes": [
+        35
+      ],
+      "schema": "bu2state;;",
+      "replyId": 70,
+      "admin": false
+    },
+    {
+      "id": 337,
+      "name": "read change combination",
+      "classes": [
+        36,
+        38,
+        59,
+        201
+      ],
+      "schema": "bu2mode;bu2unused;bu4old_keycode;bu4new_keycode;;",
+      "replyId": 338,
+      "admin": false
+    },
+    {
+      "id": 1035,
+      "name": "spray colors",
+      "classes": [
+        55
+      ],
+      "schema": "bu2what;bu2target_noid;bu1colors,16;;",
+      "replyId": 70,
+      "admin": false
+    },
+    {
+      "id": 1139,
+      "name": "split tokens",
+      "classes": [
+        26
+      ],
+      "schema": "bi4amount;;",
+      "replyId": 1142,
+      "admin": false
+    },
+    {
+      "id": 1202,
+      "name": "teleport by address",
+      "classes": [
+        56
+      ],
+      "schema": "bsaddress;;",
+      "replyId": 70,
+      "admin": false
+    },
+    {
+      "id": 1207,
+      "name": "configure teleporter connection",
+      "classes": [
+        56
+      ],
+      "schema": "bsaddress;bsaliases0;bsaliases1;bsaliases2;bsaliases3;bsaliases4;bu2secret_address;bu2areaCode;bu2rideCost;bu2entrySound;bu2exitSound;bu2operateOrientation;;",
+      "replyId": 70,
+      "admin": true
+    },
+    {
+      "id": 1570,
+      "name": "walk",
+      "classes": [
+        21
+      ],
+      "schema": "bi2coords,3;;",
+      "replyId": 1571,
+      "admin": false
+    },
+    {
+      "id": 1575,
+      "name": "get into hand",
+      "classes": [
+        21
+      ],
+      "schema": "bu2item;bu2action;;",
+      "replyId": 70,
+      "admin": false
+    },
+    {
+      "id": 1580,
+      "name": "drop held object",
+      "classes": [
+        21
+      ],
+      "schema": "bu1unused;;",
+      "replyId": 1582,
+      "admin": false
+    },
+    {
+      "id": 1587,
+      "name": "ghost",
+      "classes": [
+        21,
+        22
+      ],
+      "schema": "bu1unused;;",
+      "replyId": 1588,
+      "admin": false
+    },
+    {
+      "id": 1591,
+      "name": "touch avatar",
+      "classes": [
+        21
+      ],
+      "schema": "bu1unused;;",
+      "replyId": 70,
+      "admin": false
+    },
+    {
+      "id": 1594,
+      "name": "gesture",
+      "classes": [
+        21
+      ],
+      "schema": "bsgesture;;",
+      "replyId": 1596,
+      "admin": false
+    },
+    {
+      "id": 1600,
+      "name": "follow avatar",
+      "classes": [
+        21
+      ],
+      "schema": "bu2unused;;",
+      "replyId": 70,
+      "admin": false
+    },
+    {
+      "id": 1603,
+      "name": "stop following",
+      "classes": [
+        21
+      ],
+      "schema": "bu2unused;;",
+      "replyId": 70,
+      "admin": false
+    },
+    {
+      "id": 1605,
+      "name": "give held object",
+      "classes": [
+        21
+      ],
+      "schema": "bu1unused;;",
+      "replyId": 1609,
+      "admin": false
+    },
+    {
+      "id": 1608,
+      "name": "open container",
+      "classes": [
+        21
+      ],
+      "schema": "bu2item;;",
+      "replyId": 80,
+      "admin": false
+    },
+    {
+      "id": 1611,
+      "name": "close container",
+      "classes": [
+        21
+      ],
+      "schema": "bu2item;;",
+      "replyId": 70,
+      "admin": false
+    },
+    {
+      "id": 1616,
+      "name": "mood",
+      "classes": [
+        21
+      ],
+      "schema": "bu2mood;;",
+      "replyId": 70,
+      "admin": false
+    },
+    {
+      "id": 1688,
+      "name": "facing",
+      "classes": [
+        21
+      ],
+      "schema": "bu2facing;;",
+      "replyId": 70,
+      "admin": false
+    },
+    {
+      "id": 1701,
+      "name": "mute avatar",
+      "classes": [
+        21,
+        22
+      ],
+      "schema": "bsavatar_name;bu4howlong;;",
+      "replyId": 70,
+      "admin": true
+    },
+    {
+      "id": 1703,
+      "name": "freeze avatar",
+      "classes": [
+        21,
+        22
+      ],
+      "schema": "bsavatar_name;bu4howlong;;",
+      "replyId": 70,
+      "admin": true
+    },
+    {
+      "id": 1711,
+      "name": "list pocket contents",
+      "classes": [
+        21
+      ],
+      "schema": "bu1unused;;",
+      "replyId": 1712,
+      "admin": false
+    },
+    {
+      "id": 1714,
+      "name": "get pocket path",
+      "classes": [
+        21
+      ],
+      "schema": "bscontentsPath;;",
+      "replyId": 1715,
+      "admin": false
+    },
+    {
+      "id": 1916,
+      "name": "status and preferences",
+      "classes": [
+        21,
+        22
+      ],
+      "schema": "bu2type;;",
+      "replyId": 73,
+      "admin": false
+    },
+    {
+      "id": 2003,
+      "name": "ghost status",
+      "classes": [
+        22
+      ],
+      "schema": "bu2dummy;;",
+      "replyId": 73,
+      "admin": false
+    },
+    {
+      "id": 2005,
+      "name": "materialize",
+      "classes": [
+        22
+      ],
+      "schema": "bi2coords,3;;",
+      "replyId": 2006,
+      "admin": false
+    },
+    {
+      "id": 2131,
+      "name": "activate magic",
+      "classes": [
+        45
+      ],
+      "schema": "bu2state;;",
+      "replyId": 70,
+      "admin": false
+    },
+    {
+      "id": 2134,
+      "name": "configured magic effect",
+      "classes": [
+        45
+      ],
+      "schema": "bu2target;;",
+      "replyId": 70,
+      "admin": true
+    },
+    {
+      "id": 2351,
+      "name": "enter door",
+      "classes": [
+        38
+      ],
+      "schema": "bu1unused;;",
+      "replyId": 70,
+      "admin": false
+    },
+    {
+      "id": 2401,
+      "name": "sit",
+      "classes": [
+        53
+      ],
+      "schema": "bu2spot;bu2choreState;bu2clothingChore;;",
+      "replyId": 2402,
+      "admin": false
+    },
+    {
+      "id": 2405,
+      "name": "stand from seat",
+      "classes": [
+        53
+      ],
+      "schema": "bcunused;;",
+      "replyId": 2406,
+      "admin": false
+    },
+    {
+      "id": 2561,
+      "name": "appraise",
+      "classes": [
+        49
+      ],
+      "schema": "bu1unused;;",
+      "replyId": 2562,
+      "admin": false
+    },
+    {
+      "id": 2565,
+      "name": "pawn",
+      "classes": [
+        49
+      ],
+      "schema": "bu1unused;;",
+      "replyId": 2566,
+      "admin": false
+    },
+    {
+      "id": 2671,
+      "name": "browse vendroid",
+      "classes": [
+        57
+      ],
+      "schema": "bu2forward;;",
+      "replyId": 2672,
+      "admin": false
+    },
+    {
+      "id": 2675,
+      "name": "buy vendroid item",
+      "classes": [
+        57
+      ],
+      "schema": "bu2slot;;",
+      "replyId": 80,
+      "admin": false
+    },
+    {
+      "id": 2678,
+      "name": "stock vendroid",
+      "classes": [
+        57
+      ],
+      "schema": "bu2newPrice;;",
+      "replyId": 2679,
+      "admin": false
+    },
+    {
+      "id": 2682,
+      "name": "unload vendroid",
+      "classes": [
+        57
+      ],
+      "schema": "bcunused;;",
+      "replyId": 2683,
+      "admin": false
+    },
+    {
+      "id": 2710,
+      "name": "document header",
+      "classes": [
+        37
+      ],
+      "schema": "bu2doc_id;;",
+      "replyId": 2711,
+      "admin": false
+    },
+    {
+      "id": 2712,
+      "name": "document metadata",
+      "classes": [
+        37
+      ],
+      "schema": "bu4max_size_allowed;bu4days_to_live;bsauthor;bssubject;;",
+      "replyId": 2713,
+      "admin": false
+    },
+    {
+      "id": 2715,
+      "name": "binder header",
+      "classes": [
+        37
+      ],
+      "schema": "bu2idx_id;;",
+      "replyId": 2716,
+      "admin": false
+    },
+    {
+      "id": 2717,
+      "name": "binder metadata",
+      "classes": [
+        37
+      ],
+      "schema": "bu4max_size_allowed;bsauthor;bssubject;;",
+      "replyId": 2718,
+      "admin": false
+    },
+    {
+      "id": 2720,
+      "name": "document state",
+      "classes": [
+        37
+      ],
+      "schema": "bu2state;;",
+      "replyId": 2721,
+      "admin": false
+    },
+    {
+      "id": 2724,
+      "name": "delete binder entry",
+      "classes": [
+        37
+      ],
+      "schema": "bu2entry;;",
+      "replyId": 70,
+      "admin": false
+    },
+    {
+      "id": 2730,
+      "name": "Change orientation",
+      "classes": [
+        24,
+        27,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        39,
+        41,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        98,
+        200,
+        201,
+        203,
+        204,
+        205,
+        206,
+        209,
+        210,
+        213,
+        215
+      ],
+      "schema": "bu2orient;;",
+      "replyId": 2731,
+      "admin": false
+    },
+    {
+      "id": 2735,
+      "name": "binder list",
+      "classes": [
+        37
+      ],
+      "schema": "bu4idx_id;;",
+      "replyId": 2736,
+      "admin": false
+    },
+    {
+      "id": 2737,
+      "name": "create document text",
+      "classes": [
+        37
+      ],
+      "schema": "bu2actor;;",
+      "replyId": 2738,
+      "admin": false
+    },
+    {
+      "id": 2740,
+      "name": "create binder index",
+      "classes": [
+        37
+      ],
+      "schema": "bu2in_menu;;",
+      "replyId": 2741,
+      "admin": false
+    },
+    {
+      "id": 2743,
+      "name": "add document to binder",
+      "classes": [
+        37
+      ],
+      "schema": "bu2src;bu2keepblank;bu2in_menu;;",
+      "replyId": 2744,
+      "admin": false
+    },
+    {
+      "id": 2747,
+      "name": "remove document from binder",
+      "classes": [
+        37
+      ],
+      "schema": "bu2entry;bu2inhand;;",
+      "replyId": 2748,
+      "admin": false
+    },
+    {
+      "id": 2751,
+      "name": "document published state",
+      "classes": [
+        37
+      ],
+      "schema": "bu2actor;;",
+      "replyId": 70,
+      "admin": false
+    },
+    {
+      "id": 2761,
+      "name": "reorder page",
+      "classes": [
+        37
+      ],
+      "schema": "bu2page;bu2up;;",
+      "replyId": 2762,
+      "admin": false
+    },
+    {
+      "id": 2771,
+      "name": "write page",
+      "classes": [
+        37
+      ],
+      "schema": "bu2page;bu2dummyfielda;bstext;;",
+      "replyId": 2770,
+      "admin": false
+    },
+    {
+      "id": 2781,
+      "name": "read page",
+      "classes": [
+        37
+      ],
+      "schema": "bu2page;;",
+      "replyId": 2780,
+      "admin": false
+    },
+    {
+      "id": 2791,
+      "name": "split blank pages",
+      "classes": [
+        37
+      ],
+      "schema": "bu4pages;bu2inhand;;",
+      "replyId": 2792,
+      "admin": false
+    },
+    {
+      "id": 2796,
+      "name": "move blank pages",
+      "classes": [
+        37
+      ],
+      "schema": "bu2src;bu2dest;bu4pages;;",
+      "replyId": 2797,
+      "admin": false
+    },
+    {
+      "id": 2801,
+      "name": "bank balance",
+      "classes": [
+        33
+      ],
+      "schema": "bu1unused;;",
+      "replyId": 2802,
+      "admin": false
+    },
+    {
+      "id": 2806,
+      "name": "deposit",
+      "classes": [
+        33
+      ],
+      "schema": "bi4amount;;",
+      "replyId": 2807,
+      "admin": false
+    },
+    {
+      "id": 2810,
+      "name": "withdraw",
+      "classes": [
+        33
+      ],
+      "schema": "bi4amount;;",
+      "replyId": 2812,
+      "admin": false
+    },
+    {
+      "id": 2815,
+      "name": "configure ATM counters",
+      "classes": [
+        33
+      ],
+      "schema": "bu2reset;bu2operateOrientation;;",
+      "replyId": 70,
+      "admin": true
+    },
+    {
+      "id": 2920,
+      "name": "registry names",
+      "classes": [
+        52
+      ],
+      "schema": "bu1unused;;",
+      "replyId": 2921,
+      "admin": false
+    },
+    {
+      "id": 2924,
+      "name": "register display name",
+      "classes": [
+        52
+      ],
+      "schema": "bsname;;",
+      "replyId": 70,
+      "admin": false
+    },
+    {
+      "id": 3051,
+      "name": "legacy fiddle create object",
+      "classes": [
+        20,
+        41,
+        60
+      ],
+      "schema": "bu2target;bu2classno;bu2xloc;bu2yloc;bu2zloc;;",
+      "replyId": 70,
+      "admin": true
+    },
+    {
+      "id": 3053,
+      "name": "legacy fiddle delete object",
+      "classes": [
+        20,
+        41,
+        60
+      ],
+      "schema": "bu2target;;",
+      "replyId": 70,
+      "admin": true
+    },
+    {
+      "id": 3101,
+      "name": "summon avatar",
+      "classes": [
+        32
+      ],
+      "schema": "bsavatar_name;;",
+      "replyId": 70,
+      "admin": false
+    },
+    {
+      "id": 3106,
+      "name": "staff teleport to region",
+      "classes": [
+        32
+      ],
+      "schema": "bsaddress;;",
+      "replyId": 70,
+      "admin": true
+    },
+    {
+      "id": 3107,
+      "name": "staff teleport another avatar",
+      "classes": [
+        32
+      ],
+      "schema": "bsavatar_name;bsaddress;;",
+      "replyId": 70,
+      "admin": true
+    },
+    {
+      "id": 3114,
+      "name": "ban avatar",
+      "classes": [
+        32
+      ],
+      "schema": "bcavatar_name,32;bu4days;;",
+      "replyId": 70,
+      "admin": true
+    },
+    {
+      "id": 3116,
+      "name": "ban account",
+      "classes": [
+        32
+      ],
+      "schema": "bcuser,256;bu4days;;",
+      "replyId": 70,
+      "admin": true
+    },
+    {
+      "id": 3117,
+      "name": "join avatar",
+      "classes": [
+        32
+      ],
+      "schema": "bsavatar_name;;",
+      "replyId": 70,
+      "admin": false
+    },
+    {
+      "id": 3201,
+      "name": "wear accessory",
+      "classes": [
+        30
+      ],
+      "schema": "bu1unused;;",
+      "replyId": 70,
+      "admin": false
+    },
+    {
+      "id": 3205,
+      "name": "remove accessory",
+      "classes": [
+        30
+      ],
+      "schema": "bu1unused;;",
+      "replyId": 70,
+      "admin": false
+    },
+    {
+      "id": 3211,
+      "name": "operate accessory",
+      "classes": [
+        30
+      ],
+      "schema": "bu2action;;",
+      "replyId": 3212,
+      "admin": false
+    },
+    {
+      "id": 3301,
+      "name": "buy body style",
+      "classes": [
+        34
+      ],
+      "schema": "bu2body;;",
+      "replyId": 70,
+      "admin": false
+    },
+    {
+      "id": 3304,
+      "name": "configure body style",
+      "classes": [
+        34
+      ],
+      "schema": "bu2body;bu2dummyfielda;bsname;bsURL;bu2cost;bu2defaultImage;bu2operateOrientation;;",
+      "replyId": 70,
+      "admin": true
+    },
+    {
+      "id": 3313,
+      "name": "activate body changer",
+      "classes": [
+        34
+      ],
+      "schema": "bu2dummy;;",
+      "replyId": 70,
+      "admin": false
+    },
+    {
+      "id": 3424,
+      "name": "compass north",
+      "classes": [
+        35
+      ],
+      "schema": "bu2actor;;",
+      "replyId": 3425,
+      "admin": false
+    },
+    {
+      "id": 3427,
+      "name": "compass direction",
+      "classes": [
+        35
+      ],
+      "schema": "bu2actor;;",
+      "replyId": 3428,
+      "admin": false
+    },
+    {
+      "id": 3601,
+      "name": "wear head",
+      "classes": [
+        24
+      ],
+      "schema": "bu1unused;;",
+      "replyId": 70,
+      "admin": false
+    },
+    {
+      "id": 3605,
+      "name": "remove head",
+      "classes": [
+        24
+      ],
+      "schema": "bu1unused;;",
+      "replyId": 70,
+      "admin": false
+    },
+    {
+      "id": 4001,
+      "name": "read rental plan",
+      "classes": [
+        46
+      ],
+      "schema": "bu2plan;;",
+      "replyId": 4002,
+      "admin": false
+    },
+    {
+      "id": 4005,
+      "name": "rent home",
+      "classes": [
+        46
+      ],
+      "schema": "bu2plan;bu2primary;bsaddress;;",
+      "replyId": 4006,
+      "admin": false
+    },
+    {
+      "id": 4009,
+      "name": "pay home rent",
+      "classes": [
+        46
+      ],
+      "schema": "bsaddress;;",
+      "replyId": 70,
+      "admin": false
+    },
+    {
+      "id": 4013,
+      "name": "break home lease",
+      "classes": [
+        46
+      ],
+      "schema": "bsaddress;;",
+      "replyId": 4014,
+      "admin": false
+    },
+    {
+      "id": 4016,
+      "name": "quote home rent",
+      "classes": [
+        46
+      ],
+      "schema": "bsaddress;;",
+      "replyId": 4017,
+      "admin": false
+    },
+    {
+      "id": 4020,
+      "name": "read lease URL",
+      "classes": [
+        46
+      ],
+      "schema": "bu1unused;;",
+      "replyId": 4021,
+      "admin": false
+    },
+    {
+      "id": 4024,
+      "name": "add home co-owner",
+      "classes": [
+        46
+      ],
+      "schema": "bsaddress;bsnewOwnerName;;",
+      "replyId": 70,
+      "admin": false
+    },
+    {
+      "id": 4028,
+      "name": "change home address",
+      "classes": [
+        46
+      ],
+      "schema": "bsaddress;bsnewAddress;;",
+      "replyId": 70,
+      "admin": false
+    },
+    {
+      "id": 4102,
+      "name": "elevator destination",
+      "classes": [
+        39
+      ],
+      "schema": "bu2home;bu2dummyfielda;bsaddress;;",
+      "replyId": 70,
+      "admin": false
+    },
+    {
+      "id": 4151,
+      "name": "operate use object",
+      "classes": [
+        31
+      ],
+      "schema": "bu2action;;",
+      "replyId": 4152,
+      "admin": false
+    },
+    {
+      "id": 4303,
+      "name": "recycle document",
+      "classes": [
+        51
+      ],
+      "schema": "bu2target;;",
+      "replyId": 4304,
+      "admin": false
+    },
+    {
+      "id": 4311,
+      "name": "produce blank pages",
+      "classes": [
+        51
+      ],
+      "schema": "bu4pages;;",
+      "replyId": 4312,
+      "admin": false
+    },
+    {
+      "id": 4353,
+      "name": "set printing master",
+      "classes": [
+        43
+      ],
+      "schema": "bu2master;;",
+      "replyId": 4354,
+      "admin": false
+    },
+    {
+      "id": 4357,
+      "name": "remove printing master",
+      "classes": [
+        43
+      ],
+      "schema": "bu2actor;;",
+      "replyId": 4358,
+      "admin": false
+    },
+    {
+      "id": 4361,
+      "name": "print copies",
+      "classes": [
+        43
+      ],
+      "schema": "bu4copies;;",
+      "replyId": 4362,
+      "admin": false
+    },
+    {
+      "id": 4403,
+      "name": "buy news copy",
+      "classes": [
+        47
+      ],
+      "schema": "bu2actor;;",
+      "replyId": 80,
+      "admin": false
+    },
+    {
+      "id": 4407,
+      "name": "set news master",
+      "classes": [
+        47
+      ],
+      "schema": "bu2master;;",
+      "replyId": 70,
+      "admin": false
+    },
+    {
+      "id": 4453,
+      "name": "post physical mail",
+      "classes": [
+        50
+      ],
+      "schema": "bu4postage;bsaddress;bscontents;;",
+      "replyId": 70,
+      "admin": false
+    },
+    {
+      "id": 4457,
+      "name": "receive physical mail",
+      "classes": [
+        50
+      ],
+      "schema": "bu1unused;;",
+      "replyId": 4458,
+      "admin": false
+    },
+    {
+      "id": 4501,
+      "name": "roll randomizer",
+      "classes": [
+        58
+      ],
+      "schema": "bu1hidden;;",
+      "replyId": 4502,
+      "admin": false
+    },
+    {
+      "id": 4505,
+      "name": "reveal randomizer",
+      "classes": [
+        58
+      ],
+      "schema": "bu1to_who;;",
+      "replyId": 4506,
+      "admin": false
+    },
+    {
+      "id": 5101,
+      "name": "operate weapon prop",
+      "classes": [
+        59
+      ],
+      "schema": "bu2dummy;;",
+      "replyId": 5102,
+      "admin": false
+    },
+    {
+      "id": 5302,
+      "name": "builder rename",
+      "classes": [
+        20,
+        41,
+        60
+      ],
+      "schema": "bu2target;bu2dummyfielda;bsname;;",
+      "replyId": 70,
+      "admin": true
+    },
+    {
+      "id": 5306,
+      "name": "builder description",
+      "classes": [
+        20,
+        41,
+        60
+      ],
+      "schema": "bu2target;bu2dummyfielda;bsTMAtext;;",
+      "replyId": 70,
+      "admin": true
+    },
+    {
+      "id": 5310,
+      "name": "builder create object",
+      "classes": [
+        20,
+        41,
+        60
+      ],
+      "schema": "bu2classno;bi2xloc;bi2yloc;;",
+      "replyId": 5311,
+      "admin": true
+    },
+    {
+      "id": 5314,
+      "name": "builder duplicate object",
+      "classes": [
+        20,
+        41,
+        60
+      ],
+      "schema": "bu2target;bu2count;;",
+      "replyId": 70,
+      "admin": true
+    },
+    {
+      "id": 5318,
+      "name": "builder delete object",
+      "classes": [
+        20,
+        41,
+        60
+      ],
+      "schema": "bu2target;;",
+      "replyId": 70,
+      "admin": true
+    },
+    {
+      "id": 5322,
+      "name": "builder update object",
+      "classes": [
+        20,
+        41,
+        60
+      ],
+      "schema": "bu2item;bu2dummyfielda;bsnewData;;",
+      "replyId": 5323,
+      "admin": true
+    },
+    {
+      "id": 5333,
+      "name": "builder colors",
+      "classes": [
+        20,
+        41,
+        60
+      ],
+      "schema": "bu2target;bu1colorMap,16;;",
+      "replyId": 70,
+      "admin": true
+    },
+    {
+      "id": 5605,
+      "name": "banner data",
+      "classes": [
+        61
+      ],
+      "schema": "bu2which;bu2format;;",
+      "replyId": 5606,
+      "admin": false
+    },
+    {
+      "id": 5621,
+      "name": "set banner data",
+      "classes": [
+        61
+      ],
+      "schema": "bu2which;bu2dummyfielda;bu4interval;bu2autostart;bu2dummyfieldb;bslimitprop;bu4limit;bstext;;",
+      "replyId": 70,
+      "admin": false
+    },
+    {
+      "id": 5631,
+      "name": "set banner state",
+      "classes": [
+        61
+      ],
+      "schema": "bu2state;;",
+      "replyId": 70,
+      "admin": false
+    },
+    {
+      "id": 5675,
+      "name": "receive banner prize",
+      "classes": [
+        61
+      ],
+      "schema": "bu2slot;;",
+      "replyId": 80,
+      "admin": false
+    },
+    {
+      "id": 5678,
+      "name": "stock banner",
+      "classes": [
+        61
+      ],
+      "schema": "bu1slot;;",
+      "replyId": 5679,
+      "admin": false
+    },
+    {
+      "id": 5682,
+      "name": "unload banner",
+      "classes": [
+        61
+      ],
+      "schema": "bu1slot;;",
+      "replyId": 5683,
+      "admin": false
+    },
+    {
+      "id": 9908,
+      "name": "engrave owned object",
+      "classes": [
+        98
+      ],
+      "schema": "bu2target;bsname;;",
+      "replyId": 70,
+      "admin": false
+    },
+    {
+      "id": 20010,
+      "name": "talk to NPC",
+      "classes": [
+        200
+      ],
+      "schema": "bstext;;",
+      "replyId": 70,
+      "admin": false
+    },
+    {
+      "id": 20103,
+      "name": "pet owner",
+      "classes": [
+        201
+      ],
+      "schema": "bu1unused;;",
+      "replyId": 20104,
+      "admin": false
+    },
+    {
+      "id": 20105,
+      "name": "adopt pet",
+      "classes": [
+        201
+      ],
+      "schema": "bu2target;bsname;;",
+      "replyId": 70,
+      "admin": false
+    },
+    {
+      "id": 20302,
+      "name": "drink potion",
+      "classes": [
+        203
+      ],
+      "schema": "bu1unused;;",
+      "replyId": 20304,
+      "admin": false
+    },
+    {
+      "id": 20404,
+      "name": "set bus routes",
+      "classes": [
+        204
+      ],
+      "schema": "bsnewRoutes;;",
+      "replyId": 70,
+      "admin": true
+    },
+    {
+      "id": 20502,
+      "name": "cashier bill",
+      "classes": [
+        205
+      ],
+      "schema": "bcunused;;",
+      "replyId": 20503,
+      "admin": false
+    },
+    {
+      "id": 20504,
+      "name": "cashier payment",
+      "classes": [
+        205
+      ],
+      "schema": "bcunused;;",
+      "replyId": 70,
+      "admin": false
+    },
+    {
+      "id": 20602,
+      "name": "wear clothing",
+      "classes": [
+        206
+      ],
+      "schema": "bu2clothingChore;;",
+      "replyId": 70,
+      "admin": false
+    },
+    {
+      "id": 20605,
+      "name": "remove clothing",
+      "classes": [
+        206
+      ],
+      "schema": "bu1unused;;",
+      "replyId": 70,
+      "admin": false
+    },
+    {
+      "id": 20904,
+      "name": "portkey settings",
+      "classes": [
+        209
+      ],
+      "schema": "bu2unused;;",
+      "replyId": 20905,
+      "admin": false
+    },
+    {
+      "id": 20906,
+      "name": "configure portkey",
+      "classes": [
+        209
+      ],
+      "schema": "bsdestination;bu2areaCode;bu2isgroup;bcmenuEntry,32;bu2charges;bu2rideCost;;",
+      "replyId": 70,
+      "admin": true
+    },
+    {
+      "id": 20907,
+      "name": "use portkey",
+      "classes": [
+        209
+      ],
+      "schema": "bu1ununsed;;",
+      "replyId": 70,
+      "admin": false
+    },
+    {
+      "id": 21004,
+      "name": "play slot machine",
+      "classes": [
+        210
+      ],
+      "schema": "bu2unused;;",
+      "replyId": 21005,
+      "admin": false
+    },
+    {
+      "id": 21006,
+      "name": "slot machine settings",
+      "classes": [
+        210
+      ],
+      "schema": "bu2unused;;",
+      "replyId": 21007,
+      "admin": false
+    },
+    {
+      "id": 21009,
+      "name": "configure slot machine",
+      "classes": [
+        210
+      ],
+      "schema": "bcmenuEntry,32;bu2stake;bsreel1sequence;bsreel2sequence;bsreel3sequence;bsrewardmatrix;;",
+      "replyId": 70,
+      "admin": true
+    },
+    {
+      "id": 21010,
+      "name": "unload slot machine",
+      "classes": [
+        210
+      ],
+      "schema": "bu1slot;;",
+      "replyId": 70,
+      "admin": false
+    },
+    {
+      "id": 21012,
+      "name": "load slot machine",
+      "classes": [
+        210
+      ],
+      "schema": "bu1slot;;",
+      "replyId": 70,
+      "admin": false
+    },
+    {
+      "id": 21304,
+      "name": "play spinner",
+      "classes": [
+        213
+      ],
+      "schema": "bu2unused;;",
+      "replyId": 21305,
+      "admin": false
+    },
+    {
+      "id": 21306,
+      "name": "spinner settings",
+      "classes": [
+        213
+      ],
+      "schema": "bu2unused;;",
+      "replyId": 21307,
+      "admin": false
+    },
+    {
+      "id": 21309,
+      "name": "configure spinner",
+      "classes": [
+        213
+      ],
+      "schema": "bcmenuEntry,32;bu2stake;bu2maxResult;;",
+      "replyId": 70,
+      "admin": true
+    },
+    {
+      "id": 21310,
+      "name": "unload spinner",
+      "classes": [
+        213
+      ],
+      "schema": "bu1slot;;",
+      "replyId": 70,
+      "admin": false
+    },
+    {
+      "id": 21312,
+      "name": "load spinner",
+      "classes": [
+        213
+      ],
+      "schema": "bu1slot;;",
+      "replyId": 70,
+      "admin": false
+    },
+    {
+      "id": 21503,
+      "name": "hide or reveal decoration",
+      "classes": [
+        215
+      ],
+      "schema": "bu2target;bu2state;;",
+      "replyId": 21506,
+      "admin": false
+    },
+    {
+      "id": 21505,
+      "name": "list hidden decorations",
+      "classes": [
+        215
+      ],
+      "schema": "bu2unused;;",
+      "replyId": 21508,
+      "admin": false
+    },
+    {
+      "id": 30001,
+      "name": "read action binding",
+      "classes": [
+        20,
+        41,
+        60
+      ],
+      "schema": "bu2target;;",
+      "replyId": 30002,
+      "admin": true
+    },
+    {
+      "id": 30003,
+      "name": "write action binding",
+      "classes": [
+        20,
+        41,
+        60
+      ],
+      "schema": "bu2target;bu2id_action;bu4next_action;;",
+      "replyId": 70,
+      "admin": true
+    },
+    {
+      "id": 30004,
+      "name": "read stored action",
+      "classes": [
+        20,
+        41,
+        60
+      ],
+      "schema": "bu2id_action;;",
+      "replyId": 30005,
+      "admin": true
+    },
+    {
+      "id": 30006,
+      "name": "store action metadata",
+      "classes": [
+        20,
+        41,
+        60
+      ],
+      "schema": "bu2id_action;bsaction_name;bsaction_description;bsscript;;",
+      "replyId": 70,
+      "admin": true
+    },
+    {
+      "id": 1681,
+      "name": "promote avatar",
+      "classes": [
+        21
+      ],
+      "schema": "bu2target;bu2perm_level;;",
+      "replyId": 70,
+      "admin": true
+    },
+    {
+      "id": 1683,
+      "name": "change avatar type",
+      "classes": [
+        21
+      ],
+      "schema": "bu2target;bu2dummyfielda;bu4type;;",
+      "replyId": 70,
+      "admin": true
+    },
+    {
+      "id": 1686,
+      "name": "force avatar logout",
+      "classes": [
+        21
+      ],
+      "schema": "bu1unused;;",
+      "replyId": 70,
+      "admin": true
+    },
+    {
+      "id": 1699,
+      "name": "disclose avatar owner",
+      "classes": [
+        21
+      ],
+      "schema": "bu1unused;;",
+      "replyId": 70,
+      "admin": true
+    }
+  ]
+}

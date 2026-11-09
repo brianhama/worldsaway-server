@@ -1,0 +1,26 @@
+{
+  "name": "worldsaway-app-server",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "WorldsAway.app persistent multiplayer world server for the browser and native clients",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "build": "tsx scripts/build.ts",
+    "typecheck": "tsc --noEmit",
+    "start": "node dist/src/cli.js",
+    "dev": "tsx watch src/cli.ts",
+    "test": "npm run build && node --test",
+    "smoke": "node dist/scripts/smoke-client.js",
+    "check": "npm run typecheck && npm run build && node dist/src/cli.js --check",
+    "coverage": "node dist/src/cli.js --coverage",
+    "coverage:write": "node dist/scripts/coverage.js",
+    "resources:import": "node dist/scripts/import-resources.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "24.19.2",
+    "tsx": "4.23.15",
+    "typescript": "6.0.3"
+  }
+}

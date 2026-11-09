@@ -1,0 +1,64 @@
+{
+  "application": "WorldsAway.app",
+  "status": "SUCCESS",
+  "verifiedAt": "2026-11-08T20:39:53.538Z",
+  "url": "https://worldsaway.app",
+  "backendUrl": "https://worldsaway-backend-preview.up.railway.app",
+  "projectId": "f83fe1b9-1444-4fe8-b0d7-ffa20d7ef902",
+  "environmentId": "b45249cd-055f-4fee-87e3-d051abfd598d",
+  "serviceId": "dbda1f0f-7f7a-4b9c-86fb-39e3cf3563fd",
+  "deploymentId": "53815a31-c208-47c5-8afe-a0549cfefc04",
+  "previousDeploymentId": "6e219421-1da1-494c-9268-5d2c0941c76d",
+  "import": {
+    "namespace": "altaway-avagoria-survey-v1",
+    "sourceFile": "content/altaway-regions-2026-11-08.json",
+    "sourceSha256": "f641e7bb1a75d426c02c0186b7595e8327a73a4047cf5fa133a8964594d9ac91",
+    "sourceCoverageStatus": "partial_at_user_request",
+    "regions": 46,
+    "surveyObjects": 3041,
+    "portalObjects": 2,
+    "objectsIncludingPortals": 3043,
+    "excludedSourceIdentityAndInventoryObjects": 193,
+    "portalIds": {
+      "entry": 3124,
+      "return": 3125
+    },
+    "archiveFile": "/data/imports/altaway-survey-f641e7bb1a75d426c02c0186b7595e8327a73a4047cf5fa133a8964594d9ac91.json",
+    "preImportBackup": "/data/world.before-altaway-avagoria-survey-v1.json",
+    "existingStartRegionAndEntitiesPreserved": true,
+    "imageVersionAdjustments": 2888,
+    "missingImageFiles": [
+      "o.fj_Nseatdevil001R.img"
+    ]
+  },
+  "source": {
+    "kind": "allowlisted local upload",
+    "fileCount": 48,
+    "bytes": 68110572,
+    "manifestSha256": "e5e3e6887dcaf68447e058d5380b66ae5e24f220953354a775ae0cce2e0851f8",
+    "gitCommit": null,
+    "accountsAndMutableDataIncluded": false
+  },
+  "runtime": {
+    "startCommand": "node dist/scripts/start-hosted.js --host 0.0.0.0 --no-demo",
+    "dataDir": "/data",
+    "persistentVolumeId": "9f9a418f-b85c-4be7-a38f-fde7652d7885"
+  },
+  "validation": {
+    "tests": 250,
+    "passed": 248,
+    "skipped": 2,
+    "failed": 0,
+    "nativePortalRoundTrip": "passed in real-source startup integration test",
+    "dockerBuild": "passed",
+    "dockerPersistentRestart": "byte-identical world; same revision and IDs",
+    "liveHealth": "passed; exact source hash and 46 regions",
+    "liveAssetRpc": "2 files matched verified pack bytes and versions",
+    "publicPage": 200,
+    "publicBackendConfig": 200,
+    "evidence": [
+      "evidence/railway-survey-import-live.json",
+      "evidence/survey-docker-import-2026-11-08.json"
+    ]
+  }
+}
